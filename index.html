@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
+">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand img {
+            height: 40px;
+            width: 80px;
+        }
+
+        .nav-link {
+            padding-right: 1rem;
+            padding-left: 1rem;
+            color: white;
+        }
+
+        .social-icons a {
+            padding: 0 10px;
+        }
+
+        .instagram {
+            background: rgb(247, 229, 7);
+            background: linear-gradient(0deg, rgba(247, 229, 7, 1) 0%, rgba(255, 0, 0, 1) 33%, rgba(254, 79, 221, 1) 71%, rgba(255, 27, 223, 1) 87%, rgba(104, 29, 196, 1) 99%);
+            border-radius: 5px;
+        }
+
+        .linkedin,
+        .twiter {
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  bg-danger" p-t 0>
+        <a class="navbar-brand" href="#">
+            <img src="image/nav_logo-removebg-preview.png" alt="Logo">
+        </a>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Product
+                    </a>
+                    <ul class="dropdown-menu bg-info">
+                        <li><a class="dropdown-item text-white" href="#">Shop Now</a></li>
+                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-nav social-icons">
+            <div class="d-flex ">
+                <div class="px-1 mx-1 facebook bg-light"><i class="fa-brands fa-facebook text-info"></i></div>
+                <div class="px-1 mx-1 instagram"><i class="fa-brands fa-instagram text-white bolder"></i></div>
+                <div class="px-1 mx-1 linkedin bg-light"><i class="fa-brands fa-linkedin text-info "></i></div>
+                <div class="px-1 mx-1 twiter bg-light"><i class="fa-brands fa-twitter text-info"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
